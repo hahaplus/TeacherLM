@@ -1,0 +1,95 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 18807857,
+  "description": "",
+  "download_checksums": {
+    "/mnt/cache/zhaochenyang/prompt_v2/enhance/CREAK_cot.jsonl": {
+      "num_bytes": 20362523,
+      "checksum": "12bcd73467625a4317b2e478c33e943b5336a119edf6537deda5064ec9dde689"
+    }
+  },
+  "download_size": 20362523,
+  "features": {
+    "ex_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "explanation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entity": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "en_wiki_pageid": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entity_mention_loc": {
+      "feature": {
+        "feature": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "cot_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "error_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "fundamental_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "cot": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "all": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "cot_tail": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 39170380,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 18807857,
+      "num_examples": 10176,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

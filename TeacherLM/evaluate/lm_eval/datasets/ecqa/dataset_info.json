@@ -1,0 +1,105 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 1863608,
+  "description": "",
+  "download_checksums": {
+    "/mnt/cache/zhaochenyang/ecqa-main/data/cqa_data_test.csv": {
+      "num_bytes": 1789003,
+      "checksum": "f3f738c5b448fc7d990ebce6e100ef759c15283d744d444642fcfb8ebcbc1da9"
+    }
+  },
+  "download_size": 1789003,
+  "features": {
+    "Unnamed: 0": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "q_no": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "q_concept": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "q_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "q_op1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "q_op2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "q_op3": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "q_op4": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "q_op5": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "q_ans": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "taskA_pos": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "taskA_neg": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "taskB": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "test": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "task_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "analysis": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3652611,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1863608,
+      "num_examples": 2194,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

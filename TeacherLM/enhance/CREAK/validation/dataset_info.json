@@ -1,0 +1,93 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "amydeng2000--CREAK",
+  "dataset_size": 2443988,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/amydeng2000/CREAK/resolve/3600013a4e003d07bfd692e1d156bcc3a6333421/train.json": {
+      "num_bytes": 3022236,
+      "checksum": "f71b4fa370bbbd7f4b5fc32b82231c18f9e68911c00fc513be0075dea9b90d90"
+    },
+    "https://huggingface.co/datasets/amydeng2000/CREAK/resolve/3600013a4e003d07bfd692e1d156bcc3a6333421/dev.json": {
+      "num_bytes": 382480,
+      "checksum": "de61800bb7d0c07a9d5b8abdf4c1604db21151bdfcb13a284db112a531bf3455"
+    }
+  },
+  "download_size": 3404716,
+  "features": {
+    "ex_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "explanation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entity": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "en_wiki_pageid": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entity_mention_loc": {
+      "feature": {
+        "feature": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "cot_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "error_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "fundamental_text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 5848704,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2175421,
+      "num_examples": 10176,
+      "dataset_name": "json"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 268567,
+      "num_examples": 1371,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
